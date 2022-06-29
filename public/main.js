@@ -21,6 +21,19 @@ var Shelf = /** @class */ (function () {
             _this.allBooks = copied;
             return _this.allBooks;
         };
+        // remove book from shelf method
+        this.removeBook = function (book) {
+            if (_this.allBooks.indexOf(book) === -1) {
+                console.log("oops, ".concat(book.title, " was not found in your shelf"));
+            }
+            else {
+                var newBooks = _this.allBooks.filter(function (b) { return b !== book; });
+                _this.allBooks = newBooks;
+                console.log("You removed '".concat(book.title, "' from your shelf"));
+                return _this.allBooks;
+            }
+            return _this.allBooks;
+        };
     }
     return Shelf;
 }());
@@ -34,4 +47,20 @@ var bookOne = {
     id: 1
 };
 jonathanLibrary.addToShelf(bookOne);
+console.log(jonathanLibrary);
+// testing remove book from shelf feature;
+var bookTwo = {
+    title: 'The Guardian',
+    author: 'John Grisham',
+    id: 2
+};
+var bookThree = {
+    title: 'Hold Tight',
+    author: 'Harlen Cobben',
+    genre: 'Mystery/Thriller',
+    id: 3
+};
+jonathanLibrary.addToShelf(bookTwo);
+jonathanLibrary.addToShelf(bookThree);
+jonathanLibrary.removeBook(bookOne);
 console.log(jonathanLibrary);
