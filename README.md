@@ -1,5 +1,5 @@
-// creating a library class...
-// Notes
+
+# Notes
 
 1. This would be a personal library
 2. The library class should be able to contain Book objects?
@@ -10,7 +10,8 @@
   - Genre
 4. The library books should be organized into collections based on genre, format, type, e.t.
 
-Methods=>
+
+## Methods
   1. A user should be able to add a new book to the library
   2. A user should be able to search for a book using the following query:
     - Title
@@ -21,7 +22,7 @@ Methods=>
     - Title
     - Author
     - Genre
-  4. A user should be able to delete a book using:
+  4. A user should be able to delete a book using: 
     - Title
     - Author
     - Genre
