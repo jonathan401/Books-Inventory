@@ -13,19 +13,19 @@
 Methods=>
   1. A user should be able to add a new book to the library
   2. A user should be able to search for a book using the following query:
-    a. Title
-    b. Author
-    c. Genre
-    d. ID
+    - Title
+    - Author
+    - Genre
+    - ID
   3. A user should be able to sort his/her books based on:
-    a. Title
-    b. Author
-    c. Genre
+    - Title
+    - Author
+    - Genre
   4. A user should be able to delete a book using:
-    a. Title
-    b. Author
-    c. Genre
-    d. ID
-*/
+    - Title
+    - Author
+    - Genre
+    - ID
+
 
 
