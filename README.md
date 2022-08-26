@@ -4,10 +4,10 @@
 1. This would be a personal library
 2. The library class should be able to contain Book objects?
 3. Each Book object should have at least the following properties:
-  a. A Title
-  b. An Author
-  c. A unique ID that would be used to distinguish the Book object from other Book objects
-  d. Genre
+  - A Title
+  - An Author
+  - A unique ID that would be used to distinguish the Book object from other Book objects
+  - Genre
 4. The library books should be organized into collections based on genre, format, type, e.t.
 
 Methods=>
